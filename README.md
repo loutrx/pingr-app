@@ -2,7 +2,7 @@
 
 **Monitor your servers from your pocket.**
 
-Pingr is a mobile app that connects to your [Pingr agent](https://github.com/otterium/pingr-api) to give you real-time visibility into your VPS health. No web dashboard, no browser tabs — just open the app, see your servers.
+Pingr is a mobile app that connects to your [Pingr agent](https://github.com/loutrx/pingr-api) to give you real-time visibility into your VPS health. No web dashboard, no browser tabs — just open the app, see your servers.
 
 Built with Expo / React Native. Part of the [Otterium](https://otterium.com) ecosystem.
 
@@ -66,12 +66,12 @@ Every monitoring tool gives you a web dashboard. But when your server goes down 
 
 - Node.js 18+
 - Expo CLI (`npx expo`)
-- A running [Pingr agent](https://github.com/otterium/pingr-api) on your server
+- A running [Pingr agent](https://github.com/loutrx/pingr-api) on your server
 
 ### Install
 
 ```bash
-git clone https://github.com/otterium/pingr-app.git
+git clone https://github.com/loutrx/pingr-app.git
 cd pingr-app
 npm install
 npx expo start
